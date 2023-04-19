@@ -13,7 +13,7 @@ export default function ListPage() {
     <ul>
       {list.map((p) => (
         <li key={p.id}>
-          <Link to={`/list/${p.id}`}> {p.name}</Link>
+          <Link to={`/single/${p.id}`}> {p.name}</Link>
         </li>
       ))}
     </ul>
